@@ -109,10 +109,10 @@ export default function Footer() {
           </p>
           <div className="flex gap-4">
             <Link
-              href="mailto:praveen.xervo@gmail.com"
+              href="mailto:info@orcalex.ai"
               className="text-xs text-muted-foreground hover:text-primary transition-colors"
             >
-              praveen.xervo@gmail.com
+              info@orcalex.ai
             </Link>
             <Link
               href="tel:+918008066228"
