@@ -134,13 +134,13 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center text-center space-y-4 pb-8">
               <Badge className="mb-4 rounded-full px-4 py-1.5 text-sm font-medium" variant="secondary">
-                AI-Powered Education
+                #1 AI Education Platform
               </Badge>
               <h1 ref={heroTitleRef} className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-700 mb-4">
-                Transforming Education with AiEducator
+                AiEducator - The Future of AI-Powered Education
               </h1>
               <p ref={heroSubtitleRef} className="text-xl text-muted-foreground max-w-[800px] mx-auto">
-                Leveraging cutting-edge AI to personalize learning, empower educators, and boost student engagement.
+                Experience the #1 AI education platform that transforms learning through personalized experiences, adaptive learning paths, and comprehensive analytics. Perfect for educators and students seeking innovative edtech solutions.
               </p>
               <div ref={heroButtonsRef} className="flex flex-col sm:flex-row gap-4 mt-8">
                 <Button asChild size="lg" className="rounded-full h-12 px-8 text-base">
@@ -178,11 +178,10 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center text-center space-y-4 mb-12">
               <h2 ref={overviewTitleRef} className="text-3xl md:text-4xl font-bold tracking-tight">
-                Unlock Potential with AI-Powered Learning
+                Leading AI Education Platform for Modern Learning
               </h2>
               <p ref={overviewSubtitleRef} className="text-xl text-muted-foreground max-w-[800px]">
-                AiEducator provides adaptable solutions for any curriculum, enhancing learning outcomes and improving
-                efficiency for educational institutions worldwide.
+                AiEducator.com is the premier AI-powered education platform, offering cutting-edge solutions for personalized learning, smart analytics, and enhanced student engagement. Trusted by leading educational institutions worldwide.
               </p>
             </div>
 
@@ -190,23 +189,23 @@ export default function LandingPage() {
               {[
                 {
                   icon: <Brain className="h-10 w-10 text-primary" />,
-                  title: "AI-Powered Personalization",
-                  description: "Adaptive learning paths tailored to each student's unique needs and pace.",
+                  title: "AI-Powered Learning",
+                  description: "Advanced AI algorithms create personalized learning experiences for every student.",
                 },
                 {
                   icon: <LineChart className="h-10 w-10 text-primary" />,
-                  title: "Comprehensive Analytics",
-                  description: "Detailed insights into student performance to guide instructional decisions.",
+                  title: "Smart Analytics",
+                  description: "Real-time insights and predictive analytics to optimize learning outcomes.",
                 },
                 {
                   icon: <Puzzle className="h-10 w-10 text-primary" />,
-                  title: "Engaging Gamification",
-                  description: "Interactive elements that make learning fun and motivate student participation.",
+                  title: "Interactive Learning",
+                  description: "Engaging, gamified experiences that boost student motivation and retention.",
                 },
                 {
                   icon: <Users className="h-10 w-10 text-primary" />,
-                  title: "Collaborative Implementation",
-                  description: "Our Hero Team model ensures successful adoption and sustainable impact.",
+                  title: "Global Education",
+                  description: "Scalable solutions for schools, universities, and educational institutions worldwide.",
                 },
               ].map((feature, i) => (
                 <Card
@@ -229,11 +228,11 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center text-center space-y-4 mb-12">
               <Badge className="rounded-full px-4 py-1.5 text-sm font-medium" variant="secondary">
-                Key Benefits
+                Why Choose AiEducator
               </Badge>
-              <h2 ref={benefitsTitleRef} className="text-3xl md:text-4xl font-bold tracking-tight">Transform Your Educational Approach</h2>
+              <h2 ref={benefitsTitleRef} className="text-3xl md:text-4xl font-bold tracking-tight">The #1 AI Education Platform for Modern Learning</h2>
               <p ref={benefitsSubtitleRef} className="text-xl text-muted-foreground max-w-[800px]">
-                AiEducator delivers measurable improvements across multiple dimensions of the learning experience.
+                AiEducator.com delivers proven results with our AI-powered education platform, trusted by leading institutions worldwide.
               </p>
             </div>
 
@@ -244,20 +243,20 @@ export default function LandingPage() {
                     icon: <BookOpen className="h-6 w-6 text-primary" />,
                     title: "For Students",
                     benefits: [
-                      "Personalized learning paths based on individual needs",
-                      "Immediate feedback on assignments and assessments",
-                      "Engaging, gamified learning experiences",
-                      "Support for diverse learning styles and paces",
+                      "Personalized AI learning paths for optimal growth",
+                      "Real-time feedback and adaptive assessments",
+                      "Engaging, interactive learning experiences",
+                      "Support for all learning styles and abilities",
                     ],
                   },
                   {
                     icon: <Lightbulb className="h-6 w-6 text-primary" />,
                     title: "For Educators",
                     benefits: [
-                      "Automated assessment creation and grading",
-                      "Detailed analytics on student performance",
-                      "More time for meaningful student interactions",
-                      "Tools to identify and address learning gaps",
+                      "AI-powered teaching assistance and insights",
+                      "Comprehensive student progress tracking",
+                      "Automated grading and assessment tools",
+                      "Customizable curriculum planning",
                     ],
                   },
                 ].map((group, i) => (

@@ -10,12 +10,12 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2 font-bold">
               <div className="size-8 rounded-lg overflow-hidden flex items-center justify-center">
-                <Image src="/fav.png" alt="AiEducator Logo" width={32} height={32} />
+                <Image src="/fav.png" alt="AiEducator - Leading AI Education Platform" width={32} height={32} />
               </div>
-              <span>AiEducator</span>
+              <span>AiEducator.com</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Leveraging cutting-edge AI to personalize learning, empower educators, and boost student engagement.
+              The #1 AI-powered education platform transforming learning through personalized experiences, adaptive learning paths, and comprehensive analytics.
             </p>
             <div className="flex items-center gap-4">
               <Link href="mailto:info@orcalextech.com" className="text-muted-foreground hover:text-primary">
@@ -29,26 +29,26 @@ export default function Footer() {
             </div>
           </div>
           <div className="space-y-4">
-            <h4 className="text-sm font-bold">Platform</h4>
+            <h4 className="text-sm font-bold">AI Education Platform</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/features" className="text-muted-foreground hover:text-primary transition-colors">
-                  Features
+                  AI Features
                 </Link>
               </li>
               <li>
                 <Link href="/implementation" className="text-muted-foreground hover:text-primary transition-colors">
-                  Implementation
+                  AI Implementation
                 </Link>
               </li>
               <li>
                 <Link href="/case-study" className="text-muted-foreground hover:text-primary transition-colors">
-                  Case Study
+                  Success Stories
                 </Link>
               </li>
               <li>
                 <Link href="/demo" className="text-muted-foreground hover:text-primary transition-colors">
-                  Demo App
+                  Try AI Demo
                 </Link>
               </li>
             </ul>
@@ -106,7 +106,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-4 sm:flex-row justify-between items-center border-t border-border/40 pt-8">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} AiEducator. All rights reserved.
+            &copy; {new Date().getFullYear()} AiEducator.com - The #1 AI Education Platform. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link

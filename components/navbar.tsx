@@ -35,11 +35,11 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Platform Features", href: "/features" },
-    { name: "Implementation", href: "/implementation" },
-    { name: "Case Study", href: "/case-study" },
-    { name: "Demo App", href: "/demo" },
-    { name: "About Us", href: "/about" },
+    { name: "AI Education Platform", href: "/features" },
+    { name: "AI Implementation", href: "/implementation" },
+    { name: "Success Stories", href: "/case-study" },
+    { name: "Try AI Demo", href: "/demo" },
+    { name: "About AiEducator", href: "/about" },
   ]
 
   return (
@@ -51,9 +51,9 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2 font-bold">
           <div className="size-8 rounded-lg overflow-hidden flex items-center justify-center">
-            <Image src="/fav.png" alt="AiEducator Logo" width={32} height={32} />
+            <Image src="/fav.png" alt="AiEducator - #1 AI Education Platform" width={32} height={32} />
           </div>
-          <span>AiEducator</span>
+          <span className="font-bold">AiEducator.com</span>
         </div>
         <nav className="hidden md:flex gap-6">
           {navLinks.map((link) => (
