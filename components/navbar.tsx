@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -49,8 +50,8 @@ export default function Navbar() {
     >
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2 font-bold">
-          <div className="size-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground">
-            A
+          <div className="size-8 rounded-lg overflow-hidden flex items-center justify-center">
+            <Image src="/fav.png" alt="AiEducator Logo" width={32} height={32} />
           </div>
           <span>AiEducator</span>
         </div>

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Mail, Phone } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,8 +9,8 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-2 font-bold">
-              <div className="size-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-primary-foreground">
-                A
+              <div className="size-8 rounded-lg overflow-hidden flex items-center justify-center">
+                <Image src="/fav.png" alt="AiEducator Logo" width={32} height={32} />
               </div>
               <span>AiEducator</span>
             </div>

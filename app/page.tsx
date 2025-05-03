@@ -317,6 +317,25 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
+        <section className="py-20 bg-gradient-to-br from-white to-black text-black">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center text-center space-y-6 max-w-3xl mx-auto">
+              <h2 ref={ctaTitleRef} className="text-3xl md:text-4xl font-bold tracking-tight">Need more services?</h2>
+              <p ref={ctaSubtitleRef} className="text-xl text-white/80">
+                Explore our AI services at Orcalex Technologies
+              </p>
+              <div ref={ctaButtonsRef} className="flex flex-col sm:flex-row gap-4 mt-4">
+                <Button asChild size="lg" variant="secondary" className="rounded-full h-12 px-8 text-base">
+                  <a href="https://www.orcalex.ai">
+                    Contact Us
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+               
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   )
