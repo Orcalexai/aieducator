@@ -8,13 +8,6 @@ import { Badge } from "@/components/ui/badge"
 import { ArrowRight, CheckCircle2, TrendingUp } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import useScrollReveal from "@/hooks/useScrollReveal"
-import { Metadata } from "next"
-
-export const metadata: Metadata = {
-  alternates: {
-    canonical: '/case-study',
-  },
-}
 
 export default function CaseStudy() {
   // Hero section refs

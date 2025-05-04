@@ -7,13 +7,6 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, Check } from "lucide-react"
 import useScrollReveal from "@/hooks/useScrollReveal"
-import { Metadata } from "next"
-
-export const metadata: Metadata = {
-  alternates: {
-    canonical: '/features',
-  },
-}
 
 export default function Features() {
   // Hero section refs
