@@ -3,52 +3,52 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://aieducator.com',
+      url: 'https://www.aieducator.com',
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1,
     },
     {
-      url: 'https://aieducator.com/features',
+      url: 'https://www.aieducator.com/features',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: 'https://aieducator.com/demo',
+      url: 'https://www.aieducator.com/demo',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: 'https://aieducator.com/about',
+      url: 'https://www.aieducator.com/about',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://aieducator.com/contact',
+      url: 'https://www.aieducator.com/contact',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://aieducator.com/implementation',
+      url: 'https://www.aieducator.com/implementation',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://aieducator.com/case-study',
+      url: 'https://www.aieducator.com/case-study',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://aieducator.com/blog',
+      url: 'https://www.aieducator.com/blog',
       lastModified: new Date(),
       changeFrequency: 'daily',
-      priority: 0.7,
+      priority: 0.8,
     },
   ]
 } 
