@@ -27,12 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: 'https://www.aieducator.com/contact',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
       url: 'https://www.aieducator.com/implementation',
       lastModified: new Date(),
       changeFrequency: 'weekly',
@@ -42,12 +36,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://www.aieducator.com/case-study',
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      url: 'https://www.aieducator.com/blog',
-      lastModified: new Date(),
-      changeFrequency: 'daily',
       priority: 0.8,
     },
   ]
