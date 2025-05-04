@@ -5,6 +5,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -70,11 +71,17 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/fav.png" type="image/png" />
+      <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+        <meta name="google-site-verification" content="MQWu4_LdI-Dnzv4LlZLbmm-aGerpVX4NG70wrxCG-UA" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen flex-col">
+            <GoogleAnalytics />
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />
@@ -84,3 +91,9 @@ export default function RootLayout({
     </html>
   )
 }
+
+
+
+
+
+
