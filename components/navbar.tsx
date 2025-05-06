@@ -38,6 +38,7 @@ export default function Navbar() {
     { name: "AI Education Platform", href: "/features" },
     { name: "AI Implementation", href: "/implementation" },
     { name: "Success Stories", href: "/case-study" },
+    { name: "blogs", href: "/blogs" },
     { name: "Try AI Demo", href: "/demo" },
     { name: "About AiEducator", href: "/about" },
   ]
