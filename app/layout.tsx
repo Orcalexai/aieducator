@@ -1,5 +1,5 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -9,10 +9,15 @@ import GoogleAnalytics from "@/components/analytics/GoogleAnalytics"
 
 const inter = Inter({ subsets: ["latin"] })
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
+
 export const metadata: Metadata = {
   title: "AiEducator - AI-Powered Education Platform | Personalized Learning Solutions",
   description: "Leveraging cutting-edge AI to personalize learning, empower educators, and boost student engagement. AiEducator is a cutting-edge AI education platform that transforms learning through personalized experiences, adaptive learning paths, and comprehensive analytics. Perfect for educators and students seeking innovative edtech solutions.",
-  keywords: "AI education,ai educator .com, aieducator.com, edtech platform, personalized learning, adaptive learning, AI in education, educational technology, smart learning, student engagement, teacher tools, learning analytics, aieducator, aiedtech, AI-powered education platform, personalized learning solutions, smart learning system, engaging learning, smart learning",
+  keywords: "AI education, aieducator, ai educator .com, aieducator.com, edtech platform, personalized learning, adaptive learning, AI in education, educational technology, smart learning, student engagement, teacher tools, learning analytics, aieducator, aiedtech, AI-powered education platform, personalized learning solutions, smart learning system, engaging learning, smart learning",
   authors: [{ name: "AiEducator Team" }],
   creator: "AiEducator",
   publisher: "AiEducator",
@@ -21,14 +26,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://aieducator.com'),
+  metadataBase: new URL('https://www.aieducator.com'),
   alternates: {
-    canonical: '/',
+    canonical: '/https://aieducator.com',
   },
   openGraph: {
     title: "AiEducator - AI-Powered Education Platform",
     description: "Transform education with AI-powered personalized learning solutions",
-    url: 'https://aieducator.com',
+    url: 'https://www.aieducator.com',
     siteName: 'AiEducator',
     images: [
       {
@@ -71,11 +76,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-      <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#ffffff" />
         <meta name="google-site-verification" content="MQWu4_LdI-Dnzv4LlZLbmm-aGerpVX4NG70wrxCG-UA" />
       </head>
       <body className={inter.className}>

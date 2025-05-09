@@ -1,0 +1,19 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /features/
+Allow: /implementation/
+Allow: /case-study/
+Allow: /demo/
+Allow: /about/
+
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Sitemap location
+Sitemap: https://www.aiducator.com/sitemap.xml
+
+# Crawl-delay: 10
+

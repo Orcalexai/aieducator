@@ -54,7 +54,7 @@ export default function Navbar() {
           <div className="size-8 rounded-lg overflow-hidden flex items-center justify-center">
             <Image src="/fav.png" alt="AiEducator - #1 AI Education Platform" width={32} height={32} />
           </div>
-          <span className="font-bold">AiEducator.com</span>
+          <span className="font-bold">AiEducator</span>
         </div>
         <nav className="hidden md:flex gap-6">
           {navLinks.map((link) => (
