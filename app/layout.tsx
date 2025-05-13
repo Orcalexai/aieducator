@@ -1,5 +1,6 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
+import Head from "next/head"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://www.aieducator.com'),
   alternates: {
-    canonical: '/https://aieducator.com',
+    canonical: '/https://www.aieducator.com',
   },
   openGraph: {
     title: "AiEducator - AI-Powered Education Platform",
@@ -75,14 +76,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
+      <Head>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="google-site-verification" content="MQWu4_LdI-Dnzv4LlZLbmm-aGerpVX4NG70wrxCG-UA" />
-      </head>
+      </Head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen flex-col">

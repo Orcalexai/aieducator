@@ -1,7 +1,7 @@
 # Allow all web crawlers
 User-agent: *
 Allow: /
-Allow: /blog/
+Disallow: /blog/
 Allow: /features/
 Allow: /implementation/
 Allow: /case-study/
@@ -15,5 +15,5 @@ Disallow: /static/
 # Sitemap location
 Sitemap: https://www.aiducator.com/sitemap.xml
 
-# Crawl-delay: 10
+
 
