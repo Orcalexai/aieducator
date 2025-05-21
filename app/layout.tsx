@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+
  
   alternates: {
     canonical: 'https://www.aieducator.com',

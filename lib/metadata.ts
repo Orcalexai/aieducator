@@ -55,6 +55,17 @@ export const pageMetadata: MetadataConfig = {
     alternates: {
       canonical: 'https://www.aieducator.com/about',
     },
+    robots:{
+       index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+    }
   },
   
   blogs: {
@@ -105,7 +116,7 @@ export const pageMetadata: MetadataConfig = {
     },
    
     alternates: {
-      canonical: 'https://www.aieducator.com/casestudy',
+      canonical: 'https://www.aieducator.com/case-study',
     },
   },
   
