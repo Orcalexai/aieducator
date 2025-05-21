@@ -87,12 +87,7 @@ export const pageMetadata: MetadataConfig = {
       locale: 'en_US',
       type: 'website',
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'AI Education Insights & Future of Learning | AIeducator',
-      description: 'Explore how AI is transforming education with expert insights.',
-      images: ['/blog/ai_learn.png'],
-    },
+    
     alternates: {
       canonical: 'https://www.aieducator.com/blogs',
     },
@@ -118,12 +113,7 @@ export const pageMetadata: MetadataConfig = {
       locale: 'en_US',
       type: 'website',
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: "Case Study: AI-Powered Education Transformation | AiEducator",
-      description: "See real-world results of AiEducator implementation.",
-      images: ['/opportunity.png'],
-    },
+   
     alternates: {
       canonical: 'https://www.aieducator.com/casestudy',
     },
@@ -149,12 +139,7 @@ export const pageMetadata: MetadataConfig = {
       locale: 'en_US',
       type: 'website',
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: "Try AiEducator Demo | AI-Powered Education Platform",
-      description: "Experience the future of education with our interactive AI-powered platform demo.",
-      images: ['/dashboard.png'],
-    },
+   
     alternates: {
       canonical: 'https://www.aieducator.com/demo',
     },
@@ -180,12 +165,7 @@ export const pageMetadata: MetadataConfig = {
       locale: 'en_US',
       type: 'website',
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: "AiEducator Features | Smart Tools for Personalized Learning",
-      description: "AI-powered tools for personalized learning paths, educator support, and student engagement.",
-      images: ['/dashboard.png'],
-    },
+   
     alternates: {
       canonical: 'https://www.aieducator.com/features',
     },
@@ -211,12 +191,7 @@ export const pageMetadata: MetadataConfig = {
       locale: 'en_US',
       type: 'website',
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: "AiEducator Implementation | Hero Team Integration Model",
-      description: "Our unique Hero Team model ensures successful, sustainable implementation in educational institutions.",
-      images: ['/opportunity.png'],
-    },
+    
     alternates: {
       canonical: 'https://www.aieducator.com/implementation',
     },
