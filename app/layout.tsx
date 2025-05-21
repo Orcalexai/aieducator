@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.aieducator.com'),
+ 
   alternates: {
-    canonical: '/https://www.aieducator.com',
+    canonical: 'https://www.aieducator.com',
   },
   openGraph: {
     title: "AiEducator - AI-Powered Education Platform",
@@ -47,12 +47,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: "AiEducator - AI-Powered Education Platform",
-    description: "Transform education with AI-powered personalized learning solutions",
-    images: ['/og-image.png'],
-  },
+
   robots: {
     index: true,
     follow: true,

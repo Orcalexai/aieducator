@@ -25,12 +25,7 @@ export const pageMetadata: MetadataConfig = {
       locale: 'en_US',
       type: 'website',
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: "AiEducator - AI-Powered Education Platform | Personalized Learning",
-      description: "Transform education with AI-powered personalized learning.",
-      images: ['/solve.png'],
-    },
+   
     alternates: {
       canonical: 'https://www.aieducator.com',
     },
@@ -56,12 +51,7 @@ export const pageMetadata: MetadataConfig = {
       locale: 'en_US',
       type: 'website',
     },
-    twitter: {
-      card: 'summary_large_image',
-      title: "About Orcalex Technologies | The Team Behind AiEducator",
-      description: "Meet the innovative team powering AiEducator.",
-      images: ['/mission.png'],
-    },
+
     alternates: {
       canonical: 'https://www.aieducator.com/about',
     },
