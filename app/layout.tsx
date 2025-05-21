@@ -16,7 +16,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "AiEducator - AI-Powered Education Platform | Personalized Learning Solutions",
+  title: "AiEducator - AI-Powered Personalized Learning for Every Student",
   description: "Leveraging cutting-edge AI to personalize learning, empower educators, and boost student engagement. AiEducator is a cutting-edge AI education platform that transforms learning through personalized experiences, adaptive learning paths, and comprehensive analytics. Perfect for educators and students seeking innovative edtech solutions.",
   keywords: "AI education, aieducator, ai educator .com, aieducator.com, edtech platform, personalized learning, adaptive learning, AI in education, educational technology, smart learning, student engagement, teacher tools, learning analytics, aieducator, aiedtech, AI-powered education platform, personalized learning solutions, smart learning system, engaging learning, smart learning",
   authors: [{ name: "AiEducator Team" }],
@@ -27,9 +27,10 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.aieducator.com'),
+
+ 
   alternates: {
-    canonical: '/https://www.aieducator.com',
+    canonical: 'https://www.aieducator.com',
   },
   openGraph: {
     title: "AiEducator - AI-Powered Education Platform",
@@ -47,12 +48,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: "AiEducator - AI-Powered Education Platform",
-    description: "Transform education with AI-powered personalized learning solutions",
-    images: ['/og-image.png'],
-  },
+
   robots: {
     index: true,
     follow: true,
