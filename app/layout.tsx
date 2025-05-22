@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.aieducator.com'),
+  metadataBase: new URL('https://www.aieducator.com/'),
   alternates: {
-    canonical: '/https://www.aieducator.com',
+    canonical: '/',
   },
   openGraph: {
     title: "AiEducator - AI-Powered Education Platform",
